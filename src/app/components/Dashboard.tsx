@@ -103,12 +103,6 @@ export function Dashboard({ tasks, onToggle, onEdit, onDelete, onNewTask }: Dash
         <div>
           <div className="flex items-center justify-between mb-3">
             <h2 style={{ fontSize: "13px", fontWeight: 600 }} className="text-foreground">Tugas Prioritas</h2>
-            <button
-              className="text-muted-foreground hover:text-foreground transition-colors"
-              style={{ fontSize: "12px", fontWeight: 500 }}
-            >
-              Lihat semua →
-            </button>
           </div>
           {recentPending.length === 0 ? (
             <div className="bg-card rounded-2xl border border-border p-10 text-center">

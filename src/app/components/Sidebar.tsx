@@ -74,14 +74,6 @@ export function Sidebar({ activeView, onViewChange, onNewTask, taskCounts }: Sid
       </nav>
 
       <div className="px-3 py-4 border-t border-border">
-        <button
-          onClick={() => {}}
-          className="w-full flex items-center gap-3 px-3 py-2.5 rounded-lg text-muted-foreground hover:bg-muted hover:text-foreground transition-colors"
-        >
-          <Settings className="w-4 h-4" />
-          <span style={{ fontSize: "13px", fontWeight: 500 }}>Pengaturan</span>
-        </button>
-
         <div className="mt-3 px-3 flex items-center gap-3">
           <div className="w-7 h-7 rounded-full bg-foreground flex items-center justify-center">
             <span className="text-primary-foreground" style={{ fontSize: "11px", fontWeight: 600 }}>AS</span>
