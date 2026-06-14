@@ -42,7 +42,7 @@ export function Dashboard({ tasks, onToggle, onEdit, onDelete, onNewTask }: Dash
       <div className="max-w-3xl mx-auto">
         <div className="mb-8">
           <h1 className="text-foreground mb-1" style={{ fontSize: "22px", fontWeight: 600 }}>
-            Selamat datang kembali, Andi 👋
+            Selamat datang kembali, Arief 👋
           </h1>
           <p className="text-muted-foreground" style={{ fontSize: "13px" }}>
             {today.toLocaleDateString("id-ID", { weekday: "long", day: "numeric", month: "long", year: "numeric" })}

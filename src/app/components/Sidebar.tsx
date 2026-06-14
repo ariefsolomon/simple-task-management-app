@@ -84,11 +84,11 @@ export function Sidebar({ activeView, onViewChange, onNewTask, taskCounts }: Sid
 
         <div className="mt-3 px-3 flex items-center gap-3">
           <div className="w-7 h-7 rounded-full bg-foreground flex items-center justify-center">
-            <span className="text-primary-foreground" style={{ fontSize: "11px", fontWeight: 600 }}>AR</span>
+            <span className="text-primary-foreground" style={{ fontSize: "11px", fontWeight: 600 }}>AS</span>
           </div>
           <div>
-            <p style={{ fontSize: "12px", fontWeight: 500 }} className="text-foreground">Andi Reza</p>
-            <p style={{ fontSize: "11px" }} className="text-muted-foreground">andi@email.com</p>
+            <p style={{ fontSize: "12px", fontWeight: 500 }} className="text-foreground">Arief Solomon</p>
+            <p style={{ fontSize: "11px" }} className="text-muted-foreground">arief@email.com</p>
           </div>
         </div>
       </div>
